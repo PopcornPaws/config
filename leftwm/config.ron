@@ -77,7 +77,9 @@
         (command: FocusWindowUp, value: "", modifier: ["modkey"], key: "Up"),
         (command: FocusWindowDown, value: "", modifier: ["modkey"], key: "Down"),
         (command: ToggleFloating, value: "", modifier: ["modkey", "Shift"], key: "f"),
-        (command: ToggleFullScreen, value: "", modifier: ["modkey"], key: "f")
+        (command: ToggleFullScreen, value: "", modifier: ["modkey"], key: "f"),
+        (command: FocusNextTag, value: "", modifier: ["modkey"], key: "n"),
+        (command: FocusPreviousTag, value: "", modifier: ["modkey"], key: "m"),
     ],
     state_path: None,
 )
