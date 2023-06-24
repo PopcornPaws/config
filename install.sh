@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# clone this config
+# git clone git@github.com:PopcornPaws:config.git
+
 ## install paru
 # git clone https://aur.archlinux.org/paru.git
 # cd paru
@@ -8,7 +11,7 @@
 ## optionally install nvidia-470xx-utils using paru ?
 
 ## install shell stuff
-# sudo pacman -S alacritty nushell starship feh dmenu compton picom polybar dmenu xbindkeys
+# sudo pacman -S alacritty nushell starship feh dmenu picom polybar xbindkeys
 # cargo install nu_plugin_gstat
 
 ## install leftwm
