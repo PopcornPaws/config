@@ -1,3 +1,4 @@
+set hlsearch
 set mouse=a
 set nocompatible
 set nojoinspaces

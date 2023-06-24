@@ -6,7 +6,7 @@
 # makepkg -si
 
 ## install shell stuff
-# sudo pacman -S alacritty nushell starship feh dmenu compton picom polybar dmenu
+# sudo pacman -S alacritty nushell starship feh dmenu compton picom polybar dmenu xbindkeys
 
 ## install leftwm
 # paru -i leftwm
@@ -24,3 +24,8 @@
 
 # run minpac update in vim
 # :PackUpdate
+
+# bind files to the contents of this directory
+# ln -s config/vimrc ~/.vimrc
+# ln -s config/xinitrc ~/.xinitrc
+# ln -s config/xbindkeysrc ~/.xbindkeysrc
