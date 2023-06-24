@@ -1,0 +1,12 @@
+[user]
+	name = PopcornPaws
+	email = lipschitz77@gmail.com
+	signingkey = /home/mark/.ssh/id_ed25519.pub
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
