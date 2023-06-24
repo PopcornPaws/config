@@ -62,6 +62,7 @@
         (command: Execute, value: "alacritty", modifier: ["modkey"], key: "t"),
         (command: Execute, value: "slock", modifier: [], key: "F12"),
         (command: Execute, value: "slock", modifier: ["modkey", "Shift"], key: "s"),
+        (command: Execute, value: "signal-desktop", modifier: ["modkey"], key: "s"),
         (command: Execute, value: "firefox", modifier: ["modkey"], key: "w"),
         (command: Execute, value: "discord", modifier: ["modkey"], key: "d"),
         (command: Execute, value: "qpdfview", modifier: ["modkey"], key: "q"),
@@ -78,8 +79,8 @@
         (command: FocusWindowDown, value: "", modifier: ["modkey"], key: "Down"),
         (command: ToggleFloating, value: "", modifier: ["modkey", "Shift"], key: "f"),
         (command: ToggleFullScreen, value: "", modifier: ["modkey"], key: "f"),
-        (command: FocusNextTag, value: "", modifier: ["modkey"], key: "n"),
-        (command: FocusPreviousTag, value: "", modifier: ["modkey"], key: "m"),
+        (command: FocusNextTag, value: "", modifier: ["modkey"], key: "m"),
+        (command: FocusPreviousTag, value: "", modifier: ["modkey"], key: "n"),
     ],
     state_path: None,
 )
