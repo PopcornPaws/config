@@ -1,18 +1,26 @@
 #!/bin/bash
-#
+
 ## install paru
 # git clone https://aur.archlinux.org/paru.git
 # cd paru
 # makepkg -si
-#
+
 ## install shell stuff
-# sudo pacman -S alacritty nushell starship
-#
+# sudo pacman -S alacritty nushell starship feh dmenu compton picom polybar dmenu
+
 ## install leftwm
 # paru -i leftwm
 
-# install font
-#7z e -y font/JetBrains_Mono.zip -o.local/share/fonts
+## set leftwm theme
+# mkdir -p ~/.config/leftwm/themes
+# cd ~/.config/leftwm/themes
+# ln -s home/mark/config/leftwm/themes/night-sky current
 
-# install minpac
-#git clone https://github.com/k-takata/minpac.git ~/.vim/pack/minpac/opt/minpac
+## install font
+# 7z e -y font/JetBrains_Mono.zip -o.local/share/fonts
+
+## install minpac
+# git clone https://github.com/k-takata/minpac.git ~/.vim/pack/minpac/opt/minpac
+
+# run minpac update in vim
+# :PackUpdate
