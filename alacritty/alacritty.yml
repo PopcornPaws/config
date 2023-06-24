@@ -11,7 +11,7 @@ font:
   bold_italic:
     family: JetBrains Mono
     style: Bold Italic
-  size: 6 
+  size: 7 
 
 shell:
   program: /usr/bin/nu
