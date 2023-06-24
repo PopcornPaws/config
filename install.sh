@@ -22,11 +22,13 @@
 
 # bind files to the contents of this directory
 # ln -s ~/config/bash_profile ~/.bash_profile
+# ln -s ~/config/bashrc ~/.bashrc
 # ln -s ~/config/vimrc ~/.vimrc
 # ln -s ~/config/xinitrc ~/.xinitrc
 # ln -s ~/config/xbindkeysrc ~/.xbindkeysrc
 # ln -s ~/config/alacritty ~/.config/alacritty
 #
+# mkdir ~/.config/nushell
 # ln -s ~/config/nushell/plugin.nu ~/.config/nushell/plugin.nu
 # ln -s ~/config/nushell/config.nu ~/.config/nushell/config.nu
 # ln -s ~/config/nushell/env.nu ~/.config/nushell/env.nu
