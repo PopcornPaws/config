@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # clone this config
-# git clone git@github.com:PopcornPaws:config.git
+# git clone https://github.com/PopcornPaws/config.git
 
 ## install paru
 # git clone https://aur.archlinux.org/paru.git
@@ -18,13 +18,7 @@
 # paru -i leftwm
 
 ## install font
-# 7z e -y font/JetBrains_Mono.zip -o.local/share/fonts
-
-## install minpac
-# git clone https://github.com/k-takata/minpac.git ~/.vim/pack/minpac/opt/minpac
-
-# run minpac update in vim
-# :PackUpdate
+# 7z e -y config/font/JetBrains_Mono.zip -o.local/share/fonts
 
 # bind files to the contents of this directory
 # ln -s ~/config/bash_profile ~/.bash_profile
@@ -36,8 +30,14 @@
 # ln -s ~/config/nushell/plugin.nu ~/.config/nushell/plugin.nu
 # ln -s ~/config/nushell/config.nu ~/.config/nushell/config.nu
 # ln -s ~/config/nushell/env.nu ~/.config/nushell/env.nu
-#
+
 ## set leftwm theme
 # mkdir (-p) .config/leftwm/themes
 # ln -s ~/config/leftwm/config.ron ~/.config/leftwm/config.ron
 # ln -s ~/config/leftwm/themes/night-sky ~/.config/leftwm/themes/current
+
+## install minpac
+# git clone https://github.com/k-takata/minpac.git ~/.vim/pack/minpac/opt/minpac
+
+# run minpac update in vim
+# :PackUpdate
