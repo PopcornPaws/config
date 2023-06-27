@@ -13,5 +13,8 @@ font:
     style: Bold Italic
   size: 7 
 
+mouse:
+  hide_when_typing: true
+
 shell:
   program: /usr/bin/nu
