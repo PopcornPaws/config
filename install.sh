@@ -17,8 +17,13 @@
 ## install leftwm
 # paru -i leftwm
 
-## install font
+## install font + emojis
 # 7z e -y config/font/JetBrains_Mono.zip -o.local/share/fonts
+# sudo pacman -S noto-fonts-emoji
+#
+# Then, it seems that alacritty picks up the emoji font automatically if not,
+# then follow these steps:
+# https://github.com/alacritty/alacritty/issues/153#issuecomment-630636358
 
 # bind files to the contents of this directory
 # ln -s ~/config/bash_profile ~/.bash_profile
