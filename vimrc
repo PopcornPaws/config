@@ -11,7 +11,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-colorscheme slate
+colorscheme habamax
 
 nnoremap <Leader>n :NERDTreeToggle<Cr>
 nnoremap <Leader>f :NERDTreeFind<Cr>
