@@ -66,6 +66,7 @@
         (command: Execute, value: "firefox", modifier: ["modkey"], key: "w"),
         (command: Execute, value: "discord", modifier: ["modkey"], key: "d"),
         (command: Execute, value: "qpdfview", modifier: ["modkey"], key: "q"),
+        (command: Execute, value: "zotero", modifier: ["modkey"], key: "z"),
         (command: MoveWindowUp, value: "", modifier: ["modkey", "Shift"], key: "k"),
         (command: MoveWindowDown, value: "", modifier: ["modkey", "Shift"], key: "j"),
         (command: MoveWindowTop, value: "", modifier: ["modkey"], key: "Return"),
