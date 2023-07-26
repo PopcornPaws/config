@@ -65,6 +65,7 @@
         (command: Execute, value: "signal-desktop", modifier: ["modkey"], key: "s"),
         (command: Execute, value: "firefox", modifier: ["modkey"], key: "w"),
         (command: Execute, value: "discord", modifier: ["modkey"], key: "d"),
+        (command: Execute, value: "pcmanfm", modifier: ["modkey"], key: "p"),
         (command: Execute, value: "qpdfview", modifier: ["modkey"], key: "q"),
         (command: Execute, value: "zotero", modifier: ["modkey"], key: "z"),
         (command: MoveWindowUp, value: "", modifier: ["modkey", "Shift"], key: "k"),
