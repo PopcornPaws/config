@@ -15,7 +15,6 @@ register /home/mark/.cargo/bin/nu_plugin_gstat  {
       }
     ],
     "rest_positional": null,
-    "vectorizes_over_list": false,
     "named": [
       {
         "long": "help",
