@@ -551,3 +551,4 @@ alias pacdang = pacman -Qtdq
 alias paclean = sudo pacman -Rns -
 
 source ~/.cache/starship/init.nu
+source ~/.cache/carapace/init.nu
