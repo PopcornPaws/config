@@ -548,7 +548,7 @@ alias ll = ls -l
 alias lla = ls -la 
 
 alias pacdang = pacman -Qtdq
-alias paclean = sudo pacman -Rns -
+alias paclean = sudo pacman --noconfirm -Rns -
 
 source ~/.cache/starship/init.nu
 source ~/.cache/carapace/init.nu
