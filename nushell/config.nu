@@ -543,6 +543,7 @@ $env.PATH = /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/
 
 alias ll = ls -l 
 alias lla = ls -la 
+alias fc = forc
 
 alias pacdang = pacman -Qtdq
 alias paclean = sudo pacman --noconfirm -Rns -
