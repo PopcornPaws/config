@@ -5,6 +5,7 @@ set nocompatible
 set nojoinspaces
 set number
 set relativenumber
+set showcmd
 set wrap
 set wildmenu
 set tabstop=4
