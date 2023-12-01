@@ -55,6 +55,7 @@
     sloppy_mouse_follows_focus: true,
     auto_derive_workspaces: true,
     keybind: [
+        (command: Execute, value: "flameshot gui", modifier: [], key: "F11"),
         (command: Execute, value: "dmenu_run", modifier: ["modkey"], key: "u"),
         (command: CloseWindow, value: "", modifier: ["modkey", "Shift"], key: "q"),
         (command: SoftReload, value: "", modifier: ["modkey", "Shift"], key: "r"),
