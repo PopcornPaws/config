@@ -2,20 +2,33 @@
 
 # clone this config
 # git clone https://github.com/PopcornPaws/config.git
+#
+## install rust
+# pacman -S rustup
+# rustup default stable
 
 ## install paru
 # git clone https://aur.archlinux.org/paru.git
 # cd paru
 # makepkg -si
-
+## might need to install base-devel via pacman first
 ## optionally install nvidia-470xx-utils using paru ?
 
 ## install shell stuff
 # sudo pacman -S alacritty nushell starship feh dmenu picom polybar xbindkeys
 # cargo install nu_plugin_gstat
 
+## setup starship
+# curl -sS https://starship.rs/install.sh | sh
+# mkdir ~/.cache/starship
+# starship init nu | save -f ~/.cache/starship/init.nu
+
+## add carapace completer
+# paru -S carapace-bin
+# https://www.nushell.sh/cookbook/external_completers.html#carapace-completer
+
 ## install leftwm
-# paru -i leftwm
+# paru -S leftwm
 
 ## install font + emojis
 # 7z e -y config/font/JetBrains_Mono.zip -o.local/share/fonts
@@ -25,23 +38,23 @@
 # then follow these steps:
 # https://github.com/alacritty/alacritty/issues/153#issuecomment-630636358
 
-# bind files to the contents of this directory
-# ln -s ~/config/bash_profile ~/.bash_profile
-# ln -s ~/config/bashrc ~/.bashrc
-# ln -s ~/config/vimrc ~/.vimrc
-# ln -s ~/config/xinitrc ~/.xinitrc
-# ln -s ~/config/xbindkeysrc ~/.xbindkeysrc
-# ln -s ~/config/alacritty ~/.config/alacritty
+## bind files to the contents of this directory
+# ln -s home/mark/config/bash_profile .bash_profile
+# ln -s home/mark/config/bashrc .bashrc
+# ln -s home/mark/config/vimrc .vimrc
+# ln -s home/mark/config/xinitrc .xinitrc
+# ln -s home/mark/config/xbindkeysrc .xbindkeysrc
+# ln -s home/mark/config/alacritty .config/alacritty
 #
-# mkdir ~/.config/nushell
-# ln -s ~/config/nushell/plugin.nu ~/.config/nushell/plugin.nu
-# ln -s ~/config/nushell/config.nu ~/.config/nushell/config.nu
-# ln -s ~/config/nushell/env.nu ~/.config/nushell/env.nu
+# cd ~/.config
+# mkdir nushell
+# ln -s /home/mark/config/nushell nushell
 
 ## set leftwm theme
+# cd ~
 # mkdir (-p) .config/leftwm/themes
-# ln -s ~/config/leftwm/config.ron ~/.config/leftwm/config.ron
-# ln -s ~/config/leftwm/themes/night-sky ~/.config/leftwm/themes/current
+# ln -s /home/mark/config/leftwm/config.ron .config/leftwm/config.ron
+# ln -s /home/mark/config/leftwm/themes/night-sky .config/leftwm/themes/current
 
 ## install minpac
 # git clone https://github.com/k-takata/minpac.git ~/.vim/pack/minpac/opt/minpac
