@@ -15,8 +15,10 @@
 ## optionally install nvidia-470xx-utils using paru ?
 
 ## install shell stuff
-# sudo pacman -S alacritty nushell starship feh dmenu picom polybar xbindkeys
+# sudo pacman -S alacritty nushell starship feh dmenu picom polybar xbindkeys xorg-xinit xorg-server xorg-xrandr
 # cargo install nu_plugin_gstat
+
+## Raspberry PI might need xf86-video-fbdev installed
 
 ## setup starship
 # curl -sS https://starship.rs/install.sh | sh
@@ -39,16 +41,16 @@
 # https://github.com/alacritty/alacritty/issues/153#issuecomment-630636358
 
 ## bind files to the contents of this directory
-# ln -s home/mark/config/bash_profile .bash_profile
-# ln -s home/mark/config/bashrc .bashrc
-# ln -s home/mark/config/vimrc .vimrc
-# ln -s home/mark/config/xinitrc .xinitrc
-# ln -s home/mark/config/xbindkeysrc .xbindkeysrc
-# ln -s home/mark/config/alacritty .config/alacritty
+# cd ~
+# mkdir .config
 #
-# cd ~/.config
-# mkdir nushell
-# ln -s /home/mark/config/nushell nushell
+# ln -s /home/mark/config/bash_profile .bash_profile
+# ln -s /home/mark/config/bashrc .bashrc
+# ln -s /home/mark/config/vimrc .vimrc
+# ln -s /home/mark/config/xinitrc .xinitrc
+# ln -s /home/mark/config/xbindkeysrc .xbindkeysrc
+# ln -s /home/mark/config/alacritty .config/alacritty
+# ln -s /home/mark/config/nushell .config/nushell
 
 ## set leftwm theme
 # cd ~
