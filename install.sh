@@ -40,6 +40,8 @@
 # then follow these steps:
 # https://github.com/alacritty/alacritty/issues/153#issuecomment-630636358
 
+## install a web browser
+
 ## bind files to the contents of this directory
 # cd ~
 # mkdir .config

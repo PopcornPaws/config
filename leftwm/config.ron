@@ -64,7 +64,7 @@
         (command: Execute, value: "slock", modifier: [], key: "F12"),
         (command: Execute, value: "slock", modifier: ["modkey", "Shift"], key: "s"),
         (command: Execute, value: "signal-desktop", modifier: ["modkey"], key: "s"),
-        (command: Execute, value: "firefox", modifier: ["modkey"], key: "w"),
+        (command: Execute, value: "brave", modifier: ["modkey"], key: "w"),
         (command: Execute, value: "discord", modifier: ["modkey"], key: "d"),
         (command: Execute, value: "pcmanfm", modifier: ["modkey"], key: "p"),
         (command: Execute, value: "qpdfview", modifier: ["modkey"], key: "q"),
