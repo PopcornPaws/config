@@ -1,0 +1,24 @@
+[font]
+size = 7
+
+[font.bold]
+family = "monospace"
+style = "Bold"
+
+[font.bold_italic]
+family = "monospace"
+style = "Bold Italic"
+
+[font.italic]
+family = "monospace"
+style = "Italic"
+
+[font.normal]
+family = "monospace"
+style = "Regular"
+
+[mouse]
+hide_when_typing = true
+
+[shell]
+program = "/usr/bin/nu"
