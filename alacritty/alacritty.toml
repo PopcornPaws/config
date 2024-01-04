@@ -1,5 +1,5 @@
 [font]
-size = 7
+size = 2
 
 [font.bold]
 family = "monospace"
@@ -21,4 +21,4 @@ style = "Regular"
 hide_when_typing = true
 
 [shell]
-program = "/usr/bin/nu"
+program = "nu"
