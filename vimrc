@@ -31,6 +31,7 @@ endfunction
 command! -bar PackUpdate call PackInit() | call minpac#update('', {'do': 'call minpac#status()'})
 command! -bar PackClean  call PackInit() | call minpac#clean()
 command! -bar PackStatus call PackInit() | call minpac#status()
+command! Fmt RustFmt
 
 " enable type file detection
 filetype on
