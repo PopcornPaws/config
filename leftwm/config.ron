@@ -75,6 +75,7 @@
         (modifier: ["modkey", "Shift"], key: "q", command: CloseWindow, value: ""),
         (modifier: ["modkey", "Shift"], key: "r", command: SoftReload, value: ""),
         (modifier: ["modkey", "Shift"], key: "s", command: Execute, value: "signal-desktop"),
+        (modifier: ["modkey", "Shift"], key: "t", command: Execute, value: "telegram-desktop"),
         (modifier: ["modkey", "Shift"], key: "x", command: Execute, value: "loginctl kill-session $XDG_SESSION_ID"),
         (modifier: ["modkey", "Shift"], key: "Escape", command: Execute, value: "poweroff"),
     ],
