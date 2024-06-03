@@ -52,4 +52,6 @@ setxkbmap -option compose:ralt
 
 xbindkeys
 
+numlockx &
+
 exec leftwm
