@@ -3,11 +3,12 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-
 ZSH_THEME="lukerandall"
 
-plugins=(archlinux git)
+plugins=(git)
 
+# temporary fix for this issue https://github.com/ohmyzsh/ohmyzsh/issues/12328
+zstyle ':omz:alpha:lib:git' async-prompt no
 source $ZSH/oh-my-zsh.sh
 
 # zsh-syntax-highlighting
