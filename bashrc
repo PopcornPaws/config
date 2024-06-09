@@ -14,3 +14,5 @@ if [ -f '/data/misc/google-cloud-sdk/path.bash.inc' ]; then . '/data/misc/google
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/data/misc/google-cloud-sdk/completion.bash.inc' ]; then . '/data/misc/google-cloud-sdk/completion.bash.inc'; fi
+
+export PATH="$PATH:/home/mark/.foundry/bin"

@@ -538,7 +538,7 @@ $env.config = {
   ]
 }
 
-$env.PATH = /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/mark/.cargo/bin:/home/mark/.fuelup/bin
+$env.PATH = /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/mark/.cargo/bin:/home/mark/.foundry/bin
 
 alias ll = ls -l 
 alias lla = ls -la 

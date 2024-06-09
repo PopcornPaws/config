@@ -14,20 +14,14 @@
 ## might need to install base-devel via pacman first
 ## optionally install nvidia-470xx-utils using paru ?
 
-## install shell stuff
-# sudo pacman -S alacritty nushell starship feh dmenu picom polybar xbindkeys xorg-xinit xorg-server xorg-xrandr
-# cargo install nu_plugin_gstat
+## install terminal and window-manager-related stuff
+# sudo pacman -S alacritty feh dmenu picom polybar xbindkeys xorg-xinit xorg-server xorg-xrandr
+
+## install zshell and Oh-My-Zsh
+# sudo pacman -S zsh zsh-syntax-highlighting
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ## Raspberry PI might need xf86-video-fbdev installed
-
-## setup starship
-# curl -sS https://starship.rs/install.sh | sh
-# mkdir ~/.cache/starship
-# starship init nu | save -f ~/.cache/starship/init.nu
-
-## add carapace completer
-# paru -S carapace-bin
-# https://www.nushell.sh/cookbook/external_completers.html#carapace-completer
 
 ## install leftwm
 # paru -S leftwm
@@ -52,7 +46,7 @@
 # ln -s /home/mark/config/xinitrc .xinitrc
 # ln -s /home/mark/config/xbindkeysrc .xbindkeysrc
 # ln -s /home/mark/config/alacritty .config/alacritty
-# ln -s /home/mark/config/nushell .config/nushell
+# ln -s /home/mark/config/zshrc .config/zshrc
 
 ## set leftwm theme
 # cd ~

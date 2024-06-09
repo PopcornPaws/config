@@ -21,4 +21,4 @@ style = "Regular"
 hide_when_typing = true
 
 [shell]
-program = "nu"
+program = "zsh"
