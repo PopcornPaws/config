@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.cargo/bin:$HOME/.foundry/bin:$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.cargo/bin:$HOME//bin:$HOME/.foundry/bin:$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -22,3 +22,4 @@ ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=red'
 alias ls="ls --color -h --group-directories-first"
 alias ll="ls -l"
 alias lla="ls -la"
+. "$HOME/.cargo/env"
