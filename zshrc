@@ -5,6 +5,7 @@ export PATH=$HOME/.cargo/bin:$HOME//bin:$HOME/.foundry/bin:$HOME/bin:$HOME/.loca
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="lukerandall"
 
+# ZSH plugins.
 plugins=(git)
 
 # temporary fix for this issue https://github.com/ohmyzsh/ohmyzsh/issues/12328
