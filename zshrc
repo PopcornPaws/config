@@ -23,4 +23,3 @@ ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=red'
 alias ls="ls --color -h --group-directories-first"
 alias ll="ls -l"
 alias lla="ls -la"
-. "$HOME/.cargo/env"
