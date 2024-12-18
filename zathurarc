@@ -1,4 +1,7 @@
 # export XDG_CONFIG_HOME="~/.config"
 # mkdir ~/.config/zathura
 # ln -s /.../config/zathurarc /.../.config/zathura/zathurarc
+set adjust-open width
 set database sqlite
+set recolor true
+set scroll-step 50
