@@ -1,2 +1,4 @@
 # export XDG_CONFIG_HOME="~/.config"
+# mkdir ~/.config/zathura
+# ln -s /.../config/zathurarc /.../.config/zathura/zathurarc
 set database sqlite
