@@ -5,3 +5,4 @@ set adjust-open width
 set database sqlite
 set recolor true
 set scroll-step 50
+set selection-clipboard clipboard
