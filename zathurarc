@@ -3,6 +3,8 @@
 # ln -s /.../config/zathurarc /.../.config/zathura/zathurarc
 set adjust-open width
 set database sqlite
+set first-page-column 1:1
+set open-first-page true
 set recolor true
 set scroll-step 50
 set selection-clipboard clipboard
