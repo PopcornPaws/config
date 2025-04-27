@@ -52,7 +52,6 @@
     keybind: [
         (modifier: [], key: "F11", command: Execute, value: "flameshot gui"),
         (modifier: [], key: "F12", command: Execute, value: "slock"),
-        (modifier: ["modkey"], key: "c", command: Execute, value: "clickup"),
         (modifier: ["modkey"], key: "d", command: Execute, value: "discord"),
         (modifier: ["modkey"], key: "f", command: ToggleFullScreen, value: ""),
         (modifier: ["modkey"], key: "m", command: FocusNextTag, value: ""),
