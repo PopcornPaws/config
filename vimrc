@@ -46,5 +46,7 @@ filetype plugin on
 " load an indent file for the detected filetype
 filetype indent on
 
-" sway files should have the same syntax highlighting as rust files
-autocmd BufNewFile,BufRead *.sw set filetype=rust
+" some files should have the same syntax highlighting as .sh files
+autocmd BufNewFile,BufRead *.rdf set filetype=sh
+autocmd BufNewFile,BufRead *.rml set filetype=sh
+autocmd BufNewFile,BufRead *.ttl set filetype=sh
