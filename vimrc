@@ -3,6 +3,7 @@ set hlsearch
 set mouse=a
 set nocompatible
 set nojoinspaces
+set nomodeline
 set number
 set relativenumber
 set showcmd
