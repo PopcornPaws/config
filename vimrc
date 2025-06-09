@@ -32,6 +32,7 @@ function! PackInit() abort
     call minpac#add('vim-scripts/The-NERD-tree')
 	call minpac#add('rust-lang/rust.vim')
 	call minpac#add('kaarmu/typst.vim')
+	call minpac#add('yuezk/vim-js')
 endfunction
 
 command! -bar PackUpdate call PackInit() | call minpac#update('', {'do': 'call minpac#status()'})
