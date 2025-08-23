@@ -38,7 +38,8 @@ endfunction
 command! -bar PackUpdate call PackInit() | call minpac#update('', {'do': 'call minpac#status()'})
 command! -bar PackClean  call PackInit() | call minpac#clean()
 command! -bar PackStatus call PackInit() | call minpac#status()
-command! Fmt RustFmt
+autocmd FileType rust command! Fmt RustFmt
+autocmd FileType typescript,typescriptreact command! Fmt execute '%!prettier --stdin-filepath %'
 
 " enable type file detection
 filetype on
