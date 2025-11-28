@@ -1,4 +1,5 @@
 #!/bin/sh
+export XDG_SESSION_TYPE=x11
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
@@ -8,15 +9,7 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
-
-
-
-
-
-
-
     xrdb -merge $sysresources
-
 fi
 
 if [ -f $sysmodmap ]; then
@@ -24,15 +17,7 @@ if [ -f $sysmodmap ]; then
 fi
 
 if [ -f "$userresources" ]; then
-
-
-
-
-
-
- 
     xrdb -merge "$userresources"
-
 fi
 
 if [ -f "$usermodmap" ]; then
@@ -53,5 +38,5 @@ setxkbmap -option compose:ralt
 xbindkeys
 
 numlockx &
-
+picom &
 exec leftwm
