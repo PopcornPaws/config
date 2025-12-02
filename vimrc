@@ -38,8 +38,6 @@ endfunction
 command! -bar PackUpdate call PackInit() | call minpac#update('', {'do': 'call minpac#status()'})
 command! -bar PackClean  call PackInit() | call minpac#clean()
 command! -bar PackStatus call PackInit() | call minpac#status()
-autocmd FileType rust command! Fmt execute '%!rustfmt --edition=2024'
-autocmd FileType typescript,typescriptreact command! Fmt execute '%!prettier --stdin-filepath %'
 
 " enable type file detection
 filetype on
@@ -47,6 +45,9 @@ filetype on
 filetype plugin on
 " load an indent file for the detected filetype
 filetype indent on
+
+autocmd FileType rust command! Fmt RustFmt
+autocmd FileType typescript,typescriptreact command! Fmt execute '%!prettier --stdin-filepath %'
 
 " some files should have the same syntax highlighting as .sh files
 autocmd BufNewFile,BufRead *.rdf set filetype=sh
