@@ -46,7 +46,7 @@
 # ln -s /home/mark/config/xinitrc .xinitrc
 # ln -s /home/mark/config/xbindkeysrc .xbindkeysrc
 # ln -s /home/mark/config/alacritty .config/alacritty
-# ln -s /home/mark/config/zshrc .config/zshrc
+# ln -s /home/mark/config/zshrc .zshrc
 
 ## set leftwm theme
 # cd ~
